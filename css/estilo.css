@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    font-size: 16px;
+    line-height: 24px;
+    background-color: white;
+}
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+   
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tablas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+.tablas iframe{
+    margin: 5px;
+    padding-top: 10px;
+    width: 450px;
+    height: 230px;
+    border: 1px #800000 solid;  
+}
+
+figure{
+    max-width: 1200px;
+}
+img{
+    max-width: 100%;
+}
+
+footer
+{
+    text-align: center;
+}
